@@ -1,0 +1,4 @@
+[autorun]
+;open=ET.exe
+ShellExecute=ET.exe
+UseAutoPlay=1
