@@ -68,7 +68,7 @@ func main() {
 		spoopy = spoopy + "       ///'               `\\\\\\ \n"
 		spoopy = spoopy + "      \"\"'                   '\"\"\n"
 		spoopy = spoopy + "Spooky Scary Skeletons Send Shivers Down Your Spine!\n"
-		cmd := exec.Command("/bin/bash", "sudo", "wall", spoopy)
+		cmd := exec.Command("/bin/bash", "wall", spoopy)
 		cmd.Run()
 	}
 }
