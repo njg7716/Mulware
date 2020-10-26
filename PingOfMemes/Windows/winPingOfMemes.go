@@ -22,7 +22,7 @@ func main() {
 			continue
 		}
 		//Do Things!
-		cmd := exec.Command("rundll32.exe", "url.dll,FileProtocolHandler", "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.ytimg.com%2Fvi%2FZNIKKF7Q5wA%2Fmaxresdefault.jpg&f=1&nofb=1")
+		cmd := exec.Command("rundll32.exe", "url.dll,FileProtocolHandler", "https://giphy.com/gifs/YwAgyCddum3K0/html5")
 		cmd.Run()
 		//time.Sleep(3 * time.Second)
 		if err != nil {

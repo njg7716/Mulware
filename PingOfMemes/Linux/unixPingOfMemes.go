@@ -69,7 +69,7 @@ func main() {
 		spoopy = spoopy + "      \"\"'                   '\"\"\n"
 		spoopy = spoopy + "Spooky Scary Skeletons Send Shivers Down Your Spine!\n"
 		fmt.Println("Ping!")
-		cmd := exec.Command("wall", "hello")
+		cmd := exec.Command("sudo", "wall", spoopy)
 		err = cmd.Run()
 	}
 }
