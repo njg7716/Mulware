@@ -16,5 +16,5 @@ Bad stuff I wrote
 #### Instructions
 1. Run winPingOfMemes.exe with elevated privledges and leave it running in the background
 2. In order to set of the memes on windows machines use the ping binary written in go. There is a bug where any ICMP requests from either Unix or other Windows boxes will not set off the listener.
-3. Usage: ./ping.exe \<IP of target machine\>
+3. Usage: ./path/to/ping.exe \<IP of target machine\>
 4. Sit back and enjoy the memes
